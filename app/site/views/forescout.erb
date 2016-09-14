@@ -1,11 +1,11 @@
-
+<html>
+<head>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/main.css" rel="stylesheet">
-  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-
-
+  <!--<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">-->
+</head>
+<body>
   <div class="container-fluid">
     <div class="row" style="height: 60px; background-color: #00adf2;">
       <div class="social_container" style="width: 560px; float: right;">
@@ -15,11 +15,7 @@
         <a href=""><img src="/work/forescout-social-facebook.png" alt="facebook"></a>
         <a href=""><img src="/work/forescout-social-square.png" alt="square"></a>
         <a href=""><img src="/work/forescout-social-youtube.png" alt="youtube"></a>
-
       </div>
-
-
-
     </div>
 
     <div class="row" style="height: 100px; background-color: #ffffff;">
@@ -27,20 +23,14 @@
         <div class="logo" style="height: 100px; ">
           <img src="/work/forescout-logo.png" alt="forescout" style="position: relative; top: 30%;">
         </div>
-
-
       </div>
-
-
-
     </div>
 
-    <div class="row" style="overflow: hidden; height: 791px;">
-      <div id="slideshow" style="height: 791px; transform: matrix(1, 0, 0, 1, 0, 0);">
-
+    <div class="row" style="overflow: hidden; height: 80%;">
+      <div id="slideshow" style="transform: matrix(1, 0, 0, 1, 0, 0);">
         <div class="slide slide1 h791" id="1" style="opacity: 1;">
-          <div class="full_width_container" style="height: 791px; background-image: url('/work/landing_background.jpg'); background-size: contain;">
-            <div class="container w1170">
+          <div class="full_width_container" style="overflow-y: auto; background-image: url('/work/landing_background.jpg'); background-size: contain;">
+            <div class="container w1170" style="margin-bottom: 80px; padding-top: 0">
               <div class="row">
                 <div class="col-md-12">
                   <div class="col-md-6 col-md-offset-6" style="margin-top: 25px; padding: 0;">
@@ -52,7 +42,7 @@
 
                       <div class="text-center" style="margin-top: 10px; margin-bottom: 25px;">
                         <a onclick="plusDivs(-1, 02)" name="02"><btn class="btn btn-success btn-lg forescout-btn next" >START</btn></a>
-          s
+                        s
                         <p style="font-size: 16px; color: #ffffff;">Press <strong>Enter</strong></p>
                       </div>
                     </div>
@@ -66,7 +56,7 @@
           <div class="container w1170 h668" >
             <div class="row">
               <div class="col-md-9">
-                <h1 style="margin-top: 10%; margin-bottom: 0px;">What is your job function?</h1>
+                <h1 style="margin-bottom: 0px;">What is your job function?</h1>
                 <br>
                 <p style="font-size: 24px; color: #024c64;">(Choose as many as you like)</p>
               </div>
@@ -104,12 +94,12 @@
               </div>
 
             </div>
-              <div class="row button_container" style="height: 123px; background: none;">
-                <div class="col-md-6 col-md-offset-6" style="text-align: right;">
-                  <a onclick="plusDivs(0, 01)" name="01"><btn class="btn btn-default btn-lg forescout-btn previous" style="color: #00a651; border-color: #00a651;">PREVIOUS</btn></a><a onclick="plusDivs(-2, 03)" name="03"><btn class="btn btn-success btn-lg forescout-btn next" style="margin-left: 65px;">NEXT</btn></a>
+            <div class="row button_container" style="height: 123px; background: none;">
+              <div class="col-md-6 col-md-offset-6" style="text-align: right;">
+                <a onclick="plusDivs(0, 01)" name="01"><btn class="btn btn-default btn-lg forescout-btn previous" style="color: #00a651; border-color: #00a651;">PREVIOUS</btn></a><a onclick="plusDivs(-2, 03)" name="03"><btn class="btn btn-success btn-lg forescout-btn next" style="margin-left: 65px;">NEXT</btn></a>
 
-                </div>
               </div>
+            </div>
             <br>
           </div>
         </div>
@@ -117,7 +107,7 @@
           <div class="container w1170 h668" >
             <div class="row">
               <div class="col-md-9">
-                <h1 style="margin-top: 10%;">How many employees in your organization?</h1>
+                <h1 style="">How many employees in your organization?</h1>
                 <br>
               </div>
             </div>
@@ -175,7 +165,7 @@
           <div class="container w1170 h668">
             <div class="row">
               <div class="col-md-7">
-                <h1 style="margin-top: 10%;">Which industry best characterizes your organization?</h1>
+                <h1 style="">Which industry best characterizes your organization?</h1>
               </div>
             </div>
             <div class="row">
@@ -208,7 +198,7 @@
           <div class="container w1170 h668" id="five">
             <div class="row">
               <div class="col-md-10 ">
-                <h1 style="margin-top: 10%;">Do you know exactly how many devices are connecting to your network?</h1>
+                <h1 style="">Do you know exactly how many devices are connecting to your network?</h1>
               </div>
 
             </div>
@@ -261,9 +251,9 @@
 
             <div class="row">
               <div class="col-md-11">
-                <h2 class="thin-font" style="margin-top: 10%;">Organizations must conduct continuous monitoring and vulnerability detection
+                <h2 class="thin-font" style="">Organizations must conduct continuous monitoring and vulnerability detection
                   across all systems and compo- nents-including unmanaged devices/endpoints to comply with NIST Control CA-7.  How important is it to discover
-                  that an LoT device is on your network?</h2>
+                  that an IoT device is on your network?</h2>
                 <br>
               </div>
             </div>
@@ -339,7 +329,7 @@
           <div class="container w1170 h668" id="seven" >
             <div class="row">
               <div class="col-md-11">
-                <h1 style="margin-top: 10%;">How important is it to discover an loT device on your network?</h1>
+                <h1 style="">How important is it to discover an IoT device on your network?</h1>
                 <br>
               </div>
             </div>
@@ -397,7 +387,7 @@
             <div class="row">
               <div class="col-md-12" style="margin-top: 10px;">
                 <br>
-                <p class="thin-font" style="font-size: 36px; color: #024c64"><span class="reg-font"><strong>89%</strong></span> think it is important to DISCOVER loT devices</p>
+                <p class="thin-font" style="font-size: 36px; color: #024c64"><span class="reg-font"><strong>89%</strong></span> think it is important to DISCOVER IoT devices</p>
               </div>
             </div>
             <div class="row button_container" style="height: 123px; background: none;">
@@ -416,8 +406,8 @@
 
             <div class="row">
               <div class="col-md-11">
-                <h2 class="thin-font" style="margin-top: 5%; font-size: 42px;">What describes most accurately your company's primary
-                  approach to ensuring NIST IR-4 - INCIDENT HANDLING and Response Management securing all (including loT) devices on your network?</h2>
+                <h2 class="thin-font" style="margin-top: 0; font-size: 42px;">What describes most accurately your company's primary
+                  approach to ensuring NIST IR-4 - INCIDENT HANDLING and Response Management securing all (including IoT) devices on your network?</h2>
                 <br>
               </div>
             </div>
@@ -481,7 +471,7 @@
         <div class="slide slide9" id="9" style="opacity: 1">
           <div class="container w1170" id="nine">
             <div class="row">
-              <div class="col-md-12 thin-font" style="margin-top: 5%;">
+              <div class="col-md-12 thin-font" style="margin-top: 0;">
                 <span style="font-size: 72px; color: #024c64;">Thank you </span><span style="font-size: 42px; color: #024c64;"> for taking the time to share your insights.</span>
                 <br>
                 <span style="font-size: 30px; color: #024c64;">Now it's our turn to share with you.</span>
@@ -502,7 +492,7 @@
                 <div class="col-md-12 check_box_end">
                   <input class="input_check" type="checkbox" name="d_02" >
                   <a href=""><img class="empty_check" src="/work/forescout_rectangle_empty.png" alt="box"></a>
-                  <p >loT Security Survey Results</p>
+                  <p >IoT Security Survey Results</p>
                 </div>
                 <div class="col-md-12 check_box_end">
                   <input class="input_check" type="checkbox" name="d_03" >
@@ -655,24 +645,15 @@
 
         </div>
       </div>
-
-
-
-
-
     </div>
-    <div class="row" style="position: fixed; top: 950px; height: 80px; width: 100%; z-index: 12; background-color: #024c64;">
+    <div class="row footer">
       <div class="container w1170" style="height: 100%;">
         <div class="col-md-7 no_padding" style="padding-top: 30px; color: white;">
           ©2016 ForeScout Technologies Inc. All rights reserved. Terms of Use and Privacy Policy
-
         </div>
       </div>
-
     </div>
   </div>
-
-
 
 <script>
   $(document).ready(function() {
@@ -714,12 +695,14 @@
     })
   })
 
-  var height = 791;
+  var height = $('.slide:first').height()
+  console.log(height)
   var init = 0;
   showDivs(init);
 
   function plusDivs(n, y) {
     console.log("+ or - number: ", n, " ", "going to slide #: ", y)
+    console.log(height * n)
     showDivs(height * n, y);
   }
 
@@ -740,29 +723,32 @@
     console.log("opacity of items: ", q.style.opacity, p.style.opacity);
   }
   /*Change slides by scrolling up
-  var slideIndex = 1;
-  showDivs(slideIndex);
+   var slideIndex = 1;
+   showDivs(slideIndex);
 
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
+   function plusDivs(n) {
+   showDivs(slideIndex += n);
+   }
 
-  function showDivs(n) {
-    var i;
-    var initial = 0;
-    var x = document.getElementsByClassName("slide");
-    var y = document.getElementsByClassName("slideshow");
+   function showDivs(n) {
+   var i;
+   var initial = 0;
+   var x = document.getElementsByClassName("slide");
+   var y = document.getElementsByClassName("slideshow");
 
-    console.log(x);
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-      initial = initial - 791;
-      y.style.transform = matrix(1, 0, 0, 1, 0, initial);
-    }
-    x[slideIndex-1].style.display = "block";
-  }*/
+   console.log(x);
+   if (n > x.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = x.length} ;
+   for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+   initial = initial - 791;
+   y.style.transform = matrix(1, 0, 0, 1, 0, initial);
+   }
+   x[slideIndex-1].style.display = "block";
+   }*/
 
 
 </script>
+
+</body>
+</html>

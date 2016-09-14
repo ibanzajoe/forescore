@@ -179,12 +179,17 @@ select:after {
 }
 
 .h668 {
-    height: 100%;
+
 }
 
 .slide {
     height: 100%;
+    width: 100%;
     overflow-y: auto;
+}
+
+.slide .container {
+    padding-top: 40px;
 }
 
 #nine {
@@ -209,4 +214,18 @@ select:after {
     position:relative;
     -webkit-animation:animatebottom 0.4s;
     animation:animatebottom 0.4s
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 12;
+    background-color: #024c64;"
+}
+
+.full_width_container {
+    width: 100%;
 }
