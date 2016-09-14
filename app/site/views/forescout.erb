@@ -613,19 +613,19 @@
               <div class="col-md-4" style="margin-top: 1%;">
                 <div class="col-md-12 no_padding">
                   <label style="font-size: 16px">First Name</label><br>
-                  <input style="height: 65px; width: 100%;">
+                  <input type"text">
                 </div>
               </div>
               <div class="col-md-4" style="margin-top: 1%;">
                 <div class="col-md-12 no_padding">
                   <label style="font-size: 16px;">Last Name</label><br>
-                  <input style="height: 65px; width: 100%;">
+                  <input type="text">
                 </div>
               </div>
               <div class="col-md-4" style="margin-top: 1%;">
                 <div class="col-md-12 no_padding">
                   <label style="font-size: 16px;">Corporate Email Address</label><br>
-                  <input style="height: 65px; width: 100%;">
+                  <input type="text">
                 </div>
               </div>
             </div>
@@ -696,58 +696,19 @@
   })
 
   var height = $('.slide:first').height()
-  console.log(height)
+
   var init = 0;
   showDivs(init);
 
   function plusDivs(n, y) {
-    console.log("+ or - number: ", n, " ", "going to slide #: ", y)
-    console.log(height * n)
     showDivs(height * n, y);
   }
 
   function showDivs(n, y) {
-    console.log(n, y);
     var i = 0;
     var x = document.getElementById("slideshow");
-
     x.style.transform = "matrix(1, 0, 0, 1, 0," + n + ")";
-    console.log("new matrix: ", x.style.transform)
-    //var next_slide = y;
-    //var prev_slide = (y - 1);
-    //var q = document.getElementById(`${next_slide}`)
-    //var p = document.getElementById(`${prev_slide}`)
-    console.log("element by ID: ", q, p);
-    //q.style.opacity = "1";
-    //p.style.opacity = "0";
-    console.log("opacity of items: ", q.style.opacity, p.style.opacity);
   }
-  /*Change slides by scrolling up
-   var slideIndex = 1;
-   showDivs(slideIndex);
-
-   function plusDivs(n) {
-   showDivs(slideIndex += n);
-   }
-
-   function showDivs(n) {
-   var i;
-   var initial = 0;
-   var x = document.getElementsByClassName("slide");
-   var y = document.getElementsByClassName("slideshow");
-
-   console.log(x);
-   if (n > x.length) {slideIndex = 1}
-   if (n < 1) {slideIndex = x.length} ;
-   for (i = 0; i < x.length; i++) {
-   x[i].style.display = "none";
-   initial = initial - 791;
-   y.style.transform = matrix(1, 0, 0, 1, 0, initial);
-   }
-   x[slideIndex-1].style.display = "block";
-   }*/
-
-
 </script>
 
 </body>

@@ -97,6 +97,9 @@ body h3{
 }
 
 .name_input_field input {
+    width: 100%;
+    padding: 18px;
+    font-size: 2rem;
     border-style: solid;
     border-width: 1px;
     border-color: #959595;
@@ -229,3 +232,4 @@ select:after {
 .full_width_container {
     width: 100%;
 }
+
