@@ -12,7 +12,7 @@ module Honeybadger
 
     enable :sessions
     enable :reload
-    layout :admin
+    #layout :admin
 
     ### this runs before all routes ###
     before do
