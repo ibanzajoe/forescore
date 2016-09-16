@@ -1,0 +1,51 @@
+.background {
+    background-image: url('/work/landing_background.jpg');
+    background-size: cover;
+}
+.slide1 h1 {
+    margin-top: 20px;
+    font-family: ProximaNova-reg;
+    color: #ffffff;
+}
+.slide1 p {
+    font-size: 16px;
+    font-family: ProximaNova-reg;
+    color: #ffffff;
+}
+
+/* SLIDE 2 */
+.slide2 {
+    font-family: ProximaNova-thin;
+}
+.slide2 h3 {
+    font-size: 16px;
+    color: #ff6666;
+    margin-top: 0px;
+}
+
+
+.slide2 h1 {
+    margin-top: 80px;
+    font-size: 48px;
+}
+.slide2 p{
+    font-size: 15.19px;
+    margin-top: 10px;
+}
+.slide2 .note {
+    font-size: 16px;
+}
+
+/* Slide 3 CSS */
+.slide3 {
+    font-family: ProximaNova-thin;
+}
+.slide3 h1{
+    margin-top: 80px;
+    font-size: 48px;
+}
+.slide3 p{
+    font-family: ProximaNova-thin;
+    font-size: 15.19px;
+    margin-top: 10px;
+}

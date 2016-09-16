@@ -10,7 +10,6 @@ module Honeybadger
     register WillPaginate::Sinatra
     enable :sessions
     enable :reload
-    layout :forescout
 
 
     ### this runs before all routes ###
@@ -164,6 +163,12 @@ module Honeybadger
     get '/forescout' do
       render "forescout"
     end
+
+    get '/forescout-mobile' do
+
+      render "forescout-mobile"
+    end
+
 
   end
 

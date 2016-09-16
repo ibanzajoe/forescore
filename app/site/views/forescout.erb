@@ -2,74 +2,78 @@
 <head>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/main.css" rel="stylesheet">
+  <!--<link href="/css/main.css" rel="stylesheet">-->
+  <link href="/css/mobile.css" rel="stylesheet">
   <!--<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">-->
 </head>
 <body>
   <div class="container-fluid">
-    <div class="row" style="height: 60px; background-color: #00adf2;">
-      <div class="social_container" style="width: 560px; float: right;">
-        <a href=""><img src="/work/forescout-social-contactus.png" alt="contact us"></a>
-        <a href=""><img src="/work/forescout-social-linkedin.png" alt="linkedin"></a>
-        <a href=""><img src="/work/forescout-social-twitter.png" alt="twitter"></a>
-        <a href=""><img src="/work/forescout-social-facebook.png" alt="facebook"></a>
-        <a href=""><img src="/work/forescout-social-square.png" alt="square"></a>
-        <a href=""><img src="/work/forescout-social-youtube.png" alt="youtube"></a>
+    <div class="navigate">
+      <div class="row social" style="height: 60px; background-color: #00adf2;">
+        <div class="social_container">
+          <a href=""><img src="/work/forescout-social-contactus.png" alt="contact us"></a>
+          <a href=""><img src="/work/forescout-social-linkedin.png" alt="linkedin"></a>
+          <a href=""><img src="/work/forescout-social-twitter.png" alt="twitter"></a>
+          <a href=""><img src="/work/forescout-social-facebook.png" alt="facebook"></a>
+          <a href=""><img src="/work/forescout-social-square.png" alt="square"></a>
+          <a href=""><img src="/work/forescout-social-youtube.png" alt="youtube"></a>
+        </div>
       </div>
-    </div>
-
-    <div class="row" style="height: 100px; background-color: #ffffff;">
-      <div class="container" style="height: 100px; padding-left: 0px;">
-        <div class="logo" style="height: 100px; ">
-          <img src="/work/forescout-logo.png" alt="forescout" style="position: relative; top: 30%;">
+      </div>
+    <div class="logo">
+      <div class="row logo" style="background-color: #ffffff;">
+        <div class="container no_padding">
+          <div class="logo" style="padding-top: 30px; padding-bottom: 30px;">
+            <img src="/work/forescout-logo.png" alt="forescout">
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row" style="overflow: hidden; height: 80%;">
-      <div id="slideshow" style="transform: matrix(1, 0, 0, 1, 0, 0);">
-        <div class="slide slide1 h791" id="1" style="opacity: 1;">
-          <div class="full_width_container" style="overflow-y: auto; background-image: url('/work/landing_background.jpg'); background-size: contain;">
-            <div class="container w1170" style="margin-bottom: 80px; padding-top: 0">
+    <div class="row content_container">
+      <div id="slideshow">
+        <div class="slide slide1" id="1" >
+          <div class="full_width_container" >
+            <div class="container ">
               <div class="row">
-                <div class="col-md-12">
-                  <div class="col-md-6 col-md-offset-6" style="margin-top: 25px; padding: 0;">
-                    <div class="col-md-12" style="padding-right: 0px;">
-                      <h1 style="color: #ffffff; line-height: 70px;">Device Visibility Assessment</h1>
-                      <p class="reg-font" style="margin-top: 20px; font-size: 24px; line-height: 30px; color: #ffffff; margin-bottom: 30px;">If you can’t see an unauthorized or noncompliant device on your network, you control it. Conventional security solutions are only capable of seeing devices that are equipped with agents-- ok if all devices were easily seen and managed by IT security. But they're not.  Networks are being bombarded by agentless IoT and BYOD devices connecting and expanding the attack surface...invisibly... giving attackers a sense of invincibility. The key is how to make the invisible visible.
-                      <p class="reg-font" style="margin-bottom: 20px; font-size: 24px; line-height: 30px; color: #ffffff;">Start by understanding your level of exposure to invisi- ble attacks by taking a few minutes fill out our Device Visibility Assessment
-                        to help your see what you may not be seeing before it's too late.</p>
-
-                      <div class="text-center" style="margin-top: 10px; margin-bottom: 25px;">
-                        <a onclick="plusDivs(-1, 02)" name="02"><btn class="btn btn-success btn-lg forescout-btn next" >START</btn></a>
-                        s
-                        <p style="font-size: 16px; color: #ffffff;">Press <strong>Enter</strong></p>
-                      </div>
-                    </div>
-                  </div>
+                <div class="col-xs-12 col-md-6 col-md-offset-6" >
+                  <h1 >Device Visibility Assessment</h1>
+                  <p class="reg-font">If you can’t see an unauthorized or noncompliant device on your network, you control it. Conventional security solutions are only capable of seeing devices that are equipped with agents-- ok if all devices were easily seen and managed by IT security. But they're not.  Networks are being bombarded by agentless IoT and BYOD devices connecting and expanding the attack surface...invisibly... giving attackers a sense of invincibility. The key is how to make the invisible visible.
+                  <p class="reg-font">Start by understanding your level of exposure to invisi- ble attacks by taking a few minutes fill out our Device Visibility Assessment
+                    to help your see what you may not be seeing before it's too late.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="button_01 col-xs-12 col-md-offset-6 col-md-6">
+                  <a onclick="plusDivs(-1, 02)" name="02"><btn class="btn btn-success btn-lg forescout-btn next" >START</btn></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-md-offset-6 col-md-6">
+                  <p class="small_p">Press <strong>Enter</strong></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="slide slide2 h791" value="job_func" id="2" style="opacity: 1">
-          <div class="container w1170 h668" >
-            <div class="row">
+        <div class="slide slide2" value="job_func" id="2">
+          <div class="container" >
+            <div class="row question">
               <div class="col-md-9">
-                <h1 style="margin-bottom: 0px;">What is your job function?</h1>
+                <h1>What is your job function?</h1>
                 <br>
-                <p style="font-size: 24px; color: #024c64;">(Choose as many as you like)</p>
+                <p>(Choose as many as you like)</p>
               </div>
 
             </div>
 
 
 
-            <div class="row">
-              <div class="col-md-5" style="margin-top: 40px;">
+            <div class="row answer">
+              <div class="col-md-5">
                 <form role="form" method="POST" enctype="multipart/form-data" action="/forescore/POST">
                   <input class="input_check" type="checkbox" name="job_function" value="">
-                  <div class="check_box col-md-12 back_white" >
+                  <div class="check_box col-md-12" >
                     <a href=""><img class="check_box_image job_func_image" name="executive" src="/work/forescout_rectangle.png" alt="box"></a>
                     <p>Executive / Strategic IT</p>
                   </div>
@@ -89,22 +93,23 @@
 
             <div class="row">
               <div class="col-md-5">
-                <h3 style="color: red; margin-top: 10px;">Please type in your job function to continue</h3>
+                <h3>Please type in your job function to continue</h3>
 
               </div>
 
             </div>
-            <div class="row button_container" style="height: 123px; background: none;">
-              <div class="col-md-6 col-md-offset-6" style="text-align: right;">
-                <a onclick="plusDivs(0, 01)" name="01"><btn class="btn btn-default btn-lg forescout-btn previous" style="color: #00a651; border-color: #00a651;">PREVIOUS</btn></a><a onclick="plusDivs(-2, 03)" name="03"><btn class="btn btn-success btn-lg forescout-btn next" style="margin-left: 65px;">NEXT</btn></a>
+            <div class="row button_container" >
+              <div class="button_align col-md-6 col-md-offset-6">
+                <a onclick="plusDivs(0, 01)" name="01"><btn class="btn btn-default btn-lg forescout-btn previous">PREVIOUS</btn></a>
+                <a onclick="plusDivs(-2, 03)" name="03"><btn class="btn btn-success btn-lg forescout-btn next">NEXT</btn></a>
 
               </div>
             </div>
             <br>
           </div>
         </div>
-        <div class="slide slide3 h791" id="3" value="num_employee" style="opacity: 1">
-          <div class="container w1170 h668" >
+        <div class="slide slide3" id="3" value="num_employee">
+          <div class="container" >
             <div class="row">
               <div class="col-md-9">
                 <h1 style="">How many employees in your organization?</h1>
@@ -146,9 +151,9 @@
 
             <div class="col-md-5 no_padding">
 
-              <p style="font-size: 24px; color: red;">Please make a selection to continue</p>
+              <p class="note">Please make a selection to continue</p>
             </div>
-            <div class="row button_container" style="height: 123px; background: none;">
+            <div class="row button_container" >
 
               <div class="col-md-6 col-md-offset-6" style="text-align: right;">
                 <a onclick="plusDivs(-1, 02)" name="02"><btn class="btn btn-default btn-lg forescout-btn previous" style="color: #00a651; border-color: #00a651;">PREVIOUS</btn></a>
@@ -161,8 +166,8 @@
           </div>
 
         </div>
-        <div class="slide slide4 h791" id="4" style="opacity: 1">
-          <div class="container w1170 h668">
+        <div class="slide slide4" id="4">
+          <div class="container">
             <div class="row">
               <div class="col-md-7">
                 <h1 style="">Which industry best characterizes your organization?</h1>
@@ -194,8 +199,8 @@
             <br>
           </div>
         </div>
-        <div class="slide slide5 h791" id="5" value="know" style="opacity: 1" >
-          <div class="container w1170 h668" id="five">
+        <div class="slide slide5" id="5" value="know">
+          <div class="container" id="five">
             <div class="row">
               <div class="col-md-10 ">
                 <h1 style="">Do you know exactly how many devices are connecting to your network?</h1>
@@ -246,8 +251,8 @@
           </div>
 
         </div>
-        <div class="slide slide6 h791" id="6" value="iot_import" style="opacity: 1">
-          <div class="container h668" id="six">
+        <div class="slide slide6" id="6" value="iot_import">
+          <div class="container" id="six">
 
             <div class="row">
               <div class="col-md-11">
@@ -314,8 +319,8 @@
                 </div>
               </div>
             </div>
-            <div class="row button_container" style="height: 123px; background: none;">
-              <div class="col-md-6 col-md-offset-6 " style="text-align: right;">
+            <div class="row button_container">
+              <div class="button_align col-md-6 col-md-offset-6 ">
                 <a onclick="plusDivs(-6, 07)" name="07"><btn class="btn btn-success btn-lg forescout-btn pull-right next" style="margin-left: 65px;">NEXT</btn></a>
                 <a onclick="plusDivs(-4, 05)" name="05"><btn class="btn btn-default btn-lg forescout-btn pull-right previous" style="color: #00a651; border-color: #00a651;">PREVIOUS</btn></a>
 
@@ -325,8 +330,8 @@
           </div>
 
         </div>
-        <div class="slide slide7 h791" id="7" value="importante" style="opacity: 1">
-          <div class="container w1170 h668" id="seven" >
+        <div class="slide slide7" id="7" value="importante">
+          <div class="container " id="seven" >
             <div class="row">
               <div class="col-md-11">
                 <h1 style="">How important is it to discover an IoT device on your network?</h1>
@@ -401,12 +406,12 @@
           </div>
 
         </div>
-        <div class="slide slide8 h791" id="8" style="opacity: 1">
-          <div class="container w1170 h668" id="eight">
+        <div class="slide slide8 h791" id="8" >
+          <div class="container" id="eight">
 
             <div class="row">
               <div class="col-md-11">
-                <h2 class="thin-font" style="margin-top: 0; font-size: 42px;">What describes most accurately your company's primary
+                <h2 class="thin-font" style="margin-top: 0;">What describes most accurately your company's primary
                   approach to ensuring NIST IR-4 - INCIDENT HANDLING and Response Management securing all (including IoT) devices on your network?</h2>
                 <br>
               </div>
@@ -451,16 +456,16 @@
               </div>
 
             </div>
-            <div class="row" style="margin-top: 0px;">
+            <div class="row note">
               <div class="col-md-12">
                 <br>
-                <p class="thin-font" style="font-size: 36px; color: #024c64"><span class="reg-font"><strong>30%</strong></span> of organizations use the same approach</p>
+                <p class="thin-font"><span class="reg-font"><strong>30%</strong></span> of organizations use the same approach</p>
                 <br>
               </div>
             </div>
 
-            <div class="row button_container" style="height: 123px; background: none;">
-              <div class="col-md-6 col-md-offset-6 " style="text-align: right;">
+            <div class="row button_container">
+              <div class="button_align col-md-6 col-md-offset-6 ">
                 <a onclick="plusDivs(-6, 07)" name="07"><btn class="btn btn-default btn-lg forescout-btn previous" style="color: #00a651; border-color: #00a651;">PREVIOUS</btn></a>
                 <a onclick="plusDivs(-8, 09)" name="09"><btn class="btn btn-success btn-lg forescout-btn next" style="margin-left: 65px;">NEXT</btn></a>
               </div>
@@ -468,8 +473,8 @@
             <br>
           </div>
         </div>
-        <div class="slide slide9" id="9" style="opacity: 1">
-          <div class="container w1170" id="nine">
+        <div class="slide slide9" id="9">
+          <div class="container" id="nine">
             <div class="row">
               <div class="col-md-12 thin-font" style="margin-top: 0;">
                 <span style="font-size: 72px; color: #024c64;">Thank you </span><span style="font-size: 42px; color: #024c64;"> for taking the time to share your insights.</span>
@@ -483,7 +488,8 @@
 
             <div class="row">
               <div class="col-md-12" style="margin-top: 3%;">
-                <span style="font-size: 24px; color: #024c64;"><strong>DOWNLOADS </strong></span><span style="font-size: 24px; color: #024c64;"> (As many as you'd like)</span>
+                <span style="font-size: 24px; color: #024c64;"><strong>DOWNLOADS </strong></span>
+                <span style="font-size: 24px; color: #024c64;"> (As many as you'd like)</span>
                 <div class="col-md-12 check_box_end">
                   <input class="input_check" type="checkbox" name="d_01" >
                   <a href=""><img class="empty_check" src="/work/forescout_rectangle_empty.png"></a>
@@ -646,9 +652,10 @@
         </div>
       </div>
     </div>
+
     <div class="row footer">
-      <div class="container w1170" style="height: 100%;">
-        <div class="col-md-7 no_padding" style="padding-top: 30px; color: white;">
+      <div class="container" style="height: 100%;">
+        <div class="footer_text col-md-7">
           ©2016 ForeScout Technologies Inc. All rights reserved. Terms of Use and Privacy Policy
         </div>
       </div>
