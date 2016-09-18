@@ -14,15 +14,11 @@
 }
 
 /* SLIDE 2 */
-.slide2 {
-    font-family: ProximaNova-thin;
-}
 .slide2 h3 {
     font-size: 16px;
     color: #ff6666;
     margin-top: 0px;
 }
-
 
 .slide2 h1 {
     margin-top: 80px;
@@ -30,31 +26,21 @@
 }
 .slide2 p{
     font-size: 15.19px;
-    margin-top: 10px;
 }
 .slide2 .note {
     font-size: 16px;
 }
 
 /* Slide 3 CSS */
-.slide3 {
-    font-family: ProximaNova-thin;
-}
 .slide3 h1{
     margin-top: 80px;
     font-size: 36px;
 }
 .slide3 p{
-    font-family: ProximaNova-thin;
     font-size: 15.19px;
-    margin-top: 10px;
 }
 
 /* Slide 4 css */
-.slide4 {
-    font-family: ProximaNova-thin;
-}
-
 .slide4 h1 {
     margin-top: 80px;
     font-size: 36px;
@@ -102,90 +88,6 @@ select:after {
     margin-top: 20px;
 }
 
-/* slide 5 css */
-
-.slide5 {
-    font-family: ProximaNova-thin;
-
-}
-
-.slide5 p{
-    font-size: 15.19px;
-    margin-top: 0px;
-}
-
-.slide5 .check_box p {
-    margin-top: 10px;
-}
-
-/* slide 6 css */
-.slide6 {
-    font-family: ProximaNova-thin;
-}
-
-.slide6 .check_box p {
-    margin-top: 4px;
-    margin-bottom: 0px;
-}
-
-/* slide 7 css */
-.slide7 {
-    font-family: ProximaNova-thin;
-}
-.slide7 .check_box p {
-    margin-top: 4px;
-    margin-bottom: 0px;
-}
-
-/* slide 8 css */
-.slide8 {
-    font-family: ProximaNova-thin;
-}
-
-.slide8 .check_box p {
-    font-size: 15.19px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-/* Slide 9 CSS */
-
-.slide9 {
-    font-family: ProximaNova-thin;
-}
-
-.slide9 p {
-    font-size: 15.19px;
-}
-
-.check_box_end {
-    color: #333333;
-    font-size: 24px;
-    margin-left: -10px;
-    margin-right: 0px;
-    padding: 0px;
-}
-
-.check_box_end img {
-    float: left;
-    display: block;
-    padding-top: 8px;
-
-}
-
-.check_box_end p {
-    margin-top: 23px;
-}
-
-.slide9 .check_box p{
-    font-size: 15.19px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.slide9 .multi_line p {
-    margin-top: 10px;
-}
 .slide9 label {
     margin-bottom: 0px;
 }

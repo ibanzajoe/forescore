@@ -147,7 +147,7 @@ module Honeybadger
     ### put your routes here ###
     get '/' do
       @posts = Post.order(:id).paginate(@page, @per_page).reverse
-      render "index"
+      render "forescout-mobile"
     end
 
     ### view page ###
