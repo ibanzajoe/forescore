@@ -37,6 +37,12 @@
     }
 
     .slides {
-        padding: 113px 0 98px;
+        padding: 113px 0 87px;
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: auto;
     }
 }
