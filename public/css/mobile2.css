@@ -218,6 +218,8 @@ select:after {
 
 .triggered-info {
     min-height: 100px;
+    font-size: 30px;
+    color: #024C64;
 }
 .triggered-info .option {
     display: none;
@@ -235,6 +237,7 @@ select:after {
     border-style: solid;
     border-width: 2px;
     border-color: grey;
+    background-color: #ffffff;
 }
 
 .value_bar.checked {
@@ -253,6 +256,10 @@ select:after {
     padding-bottom: 18px;
     padding-left: 23px;
     margin-bottom: 0px;
+}
+
+.confident {
+    margin-left: 10%;
 }
 
 .logo {
