@@ -197,6 +197,7 @@ select:after {
 }
 
 .slide {
+    position: relative;
     overflow: scroll;
     height: 100%;
     width: 100%;
