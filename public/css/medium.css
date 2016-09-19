@@ -6,6 +6,10 @@
         font-size: 56px;
     }
 
+    .blue-background {
+        background-color: transparent;
+    }
+
     .button_container {
         padding-left: 45px;
     }
