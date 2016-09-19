@@ -54,6 +54,9 @@
         padding-bottom: 20px;
         height: auto;
     }
+    .footer p{
+        text-align: left;
+    }
     /* content */
     .triggered-info {
         min-height: 100px;
@@ -90,4 +93,5 @@
         color: black;
         font-size: 15px;
     }
+
 }
