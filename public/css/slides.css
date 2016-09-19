@@ -17,11 +17,15 @@
     color: #ffffff;
 }
 
-.slide9 label {
+.slideEND label {
     margin-bottom: 0px;
 }
 
-.slide9 .name_input_field input{
+.slideEND .name_input_field input{
     width: 100%;
     padding: 10px;
+}
+
+.slideEND {
+    font-family: ProximaNova-reg;
 }

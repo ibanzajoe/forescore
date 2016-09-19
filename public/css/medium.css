@@ -5,6 +5,15 @@
     h1 {
         font-size: 56px;
     }
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 36px;
+    }
+    p  {
+        font-size: 16px;
+    }
 
     .blue-background {
         background-color: transparent;
@@ -44,5 +53,41 @@
         padding-top: 20px;
         padding-bottom: 20px;
         height: auto;
+    }
+    /* content */
+    .triggered-info {
+        min-height: 100px;
+        font-size: 30px;
+        color: #024C64;
+    }
+    select {
+        font-size: 24px;
+    }
+
+    .select_container {
+        margin-top: 30px;
+    }
+
+    .value_bar p{
+        min-width: 20px;
+        min-height: 20px;
+        max-height: 60px;
+        max-width: 60px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #959595;
+        background-color: #ffffff;
+        padding-left: 20px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .value_bar.checked p{
+        background-color: #959595;
+    }
+
+    .value_bar_container p {
+        color: black;
+        font-size: 15px;
     }
 }

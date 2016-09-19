@@ -169,6 +169,9 @@ module Honeybadger
       render "forescout-mobile"
     end
 
+    get '/forescout-temp' do
+      render "temp.erb"
+    end
 
   end
 
