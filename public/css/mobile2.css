@@ -228,10 +228,6 @@ select:after {
     display: none;
 }
 
-.value-trigger {
-    margin-top: 40px;
-}
-
 #slideshow {
     transition: .25s linear;
 }
@@ -240,7 +236,7 @@ select:after {
     min-width: 20px;
     min-height: 20px;
     max-height: 60px;
-    max-width: 60px;
+    max-width: 58px;
     border-style: solid;
     border-width: 1px;
     border-color: #959595;
