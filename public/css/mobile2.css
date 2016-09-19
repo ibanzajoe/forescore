@@ -12,11 +12,11 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 56px;
 }
 
 .title {
-    color: blue;
+    color: #024C64;
 }
 
 .thin-font {
@@ -27,6 +27,13 @@ h1 {
 }
 .text-align {
     text-align: center;
+}
+
+.blue-background {
+    background-color: blue;
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .validation-error {
@@ -43,6 +50,12 @@ h1 {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+}
+
+.start {
+    font-weight: 800;
+    font-size: 24px;
+    border: 1px solid white;
 }
 
 .no_padding {
@@ -159,13 +172,6 @@ select:after {
 }
 
 /* logo container */
-.logo {
-    background-color: #ffffff;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    z-index: 9999;
-
-}
 .content {
     padding-top: 47px;
     padding-bottom: 154px;
@@ -183,11 +189,19 @@ select:after {
     width: 40px;
 }
 
+.slides {
+    height: 100%;
+    margin: 0;
+    padding: 47px 0 140px 0;
+    overflow: hidden;
+}
+
 .slide {
     overflow: scroll;
     height: 100%;
     width: 100%;
-    background-color: lightgrey;
+    background-color: #F5F5F5;
+    padding-top: 40px;
 }
 
 .nist-path {
@@ -233,7 +247,15 @@ select:after {
     margin-bottom: 0px;
 }
 
-
+.logo {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    min-height: 47px;
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 /* social media css */
 .social {

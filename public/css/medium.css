@@ -6,8 +6,16 @@
         font-size: 56px;
     }
 
+    .blue-background {
+        background-color: transparent;
+    }
+
     .button_container {
         padding-left: 45px;
+    }
+
+    .slide {
+        padding-top: 110px
     }
 
     .slide1 {
@@ -16,5 +24,19 @@
 
     .slide1 p {
         font-size: 18px;
+    }
+
+    .social {
+        top: 0;
+    }
+
+    .logo {
+        top: 56px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .slides {
+        padding: 113px 0 98px;
     }
 }
