@@ -258,12 +258,7 @@ body h3{
         color: #024c64;
     }
 
-    .select_container img{
-        position: absolute;
-        display: block;
-        right: 10px;
-        top: 20px;
-    }
+
 
     .select_container::after {
         content: " ";
@@ -277,6 +272,8 @@ body h3{
         height: 20px;
         margin-top: -9px;
     }
+
+
 
     select {
         -webkit-appearance: none;

@@ -22,11 +22,8 @@
 
 .slide2 h1 {
     margin-top: 80px;
-    font-size: 36px;
 }
-.slide2 p{
-    font-size: 15.19px;
-}
+
 .slide2 .note {
     font-size: 16px;
 }
@@ -44,44 +41,6 @@
 .slide4 h1 {
     margin-top: 80px;
     font-size: 36px;
-}
-
-.select_container img{
-    position: absolute;
-    display: block;
-    right: 10px;
-    top: 20px;
-}
-
-.select_container::after {
-    content: " ";
-    pointer-events: none;
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    background-repeat: no-repeat;
-    background-image: url('/work/forescout_arrowdown.png');
-    width: 50px;
-    height: 20px;
-    margin-top: -10px;
-    margin-right: -10px;
-}
-
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-color: #ffffff;
-    font-size: 24px;
-    height: 60px;
-}
-
-.select_input::after {
-    content: " "
-}
-
-select:after {
-    content: " ";
 }
 
 .slide4 .button_container {

@@ -11,6 +11,14 @@ body {
     font-family: ProximaNova-thin;
 }
 
+h1 {
+    font-size: 36px;
+}
+
+.title {
+    color: blue;
+}
+
 .thin-font {
     font-family: ProximaNova-thin;
 }
@@ -21,6 +29,11 @@ body {
     text-align: center;
 }
 
+.validation-error {
+    display: none;
+    color: red;
+    padding: 10px 0;
+}
 .forescout-btn {
     font-size: 19.44px;
     border-radius: 0px;
@@ -42,11 +55,50 @@ body {
 
 }
 
+.select_container {
+    position: relative;
+}
+
+.select_container::after {
+    content: " ";
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-image: url('/work/forescout_arrowdown.png');
+    width: 50px;
+    height: 20px;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    font-size: 24px;
+    height: 60px;
+}
+
+.select_input::after {
+    content: " "
+}
+
+select:after {
+    content: " ";
+}
+
+.select_input {
+    padding-left: 15px;
+    width: 100%;
+}
+
 .check_box_container {
     display: flex;
     align-items: center;
     color: #333333;
-    font-size: 24px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 0px;
@@ -135,7 +187,24 @@ body {
     overflow: scroll;
     height: 100%;
     width: 100%;
+    background-color: lightgrey;
 }
+
+.nist-path {
+    display: none;
+}
+
+.sans-path {
+    display: none;
+}
+
+.triggered-info {
+    min-height: 100px;
+}
+.triggered-info .option {
+    display: none;
+}
+
 #slideshow {
     transition: .25s linear;
 }
