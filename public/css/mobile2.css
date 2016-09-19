@@ -289,6 +289,16 @@ select:after {
     margin-bottom: 14px;
 }
 
+.social_container {
+    font-size: 24px;
+    color: #00689e;
+
+}
+
+.social_container i {
+    margin-left: 20px;
+}
+
 /* footer css */
 .footer {
     font-family: ProximaNova-reg;
