@@ -21,4 +21,16 @@
     .slide1 p {
         font-size: 18px;
     }
+
+    .social {
+        top: 0;
+    }
+
+    .logo {
+        top: 56px;
+    }
+
+    .slides {
+        padding: 103px 0 98px;
+    }
 }
