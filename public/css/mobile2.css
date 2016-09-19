@@ -258,8 +258,8 @@ select:after {
     margin-bottom: 0px;
 }
 
-.confident {
-    margin-left: 10%;
+.row.actions {
+    margin-top: 15px;
 }
 
 .logo {
