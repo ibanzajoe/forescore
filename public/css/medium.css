@@ -14,6 +14,10 @@
         padding-left: 45px;
     }
 
+    .slide {
+        padding-top: 110px
+    }
+
     .slide1 {
         padding-top: 40px;
     }
@@ -28,9 +32,11 @@
 
     .logo {
         top: 56px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .slides {
-        padding: 103px 0 98px;
+        padding: 113px 0 98px;
     }
 }
