@@ -629,36 +629,11 @@
 
   })
 
-  function validation( btn ){
-    var $btn = $(btn)
-
-  }
-
-
-  var init = 0;
-  showDivs(init);
-
   function slide(slide_index){
-    console.log('index', slide_index)
     var height = $('.slide:first').outerHeight()
 
     var slide_to = -(height * slide_index)
-    console.log('sliding to', slide_to)
     $('#slideshow').css('transform', "matrix(1, 0, 0, 1, 0," + slide_to + ")")
-
-  }
-
-  function plusDivs(n, y) {
-    console.log(n)
-    var height = $('.slide:first').outerHeight()
-    console.log("this is the height: ", height)
-    showDivs(height * n, y);
-  }
-
-  function showDivs(n, y) {
-    var i = 0;
-    var x = document.getElementById("slideshow");
-    x.style.transform = "matrix(1, 0, 0, 1, 0," + n + ")";
   }
 
   $('.path-selector').on('change', function(e){
