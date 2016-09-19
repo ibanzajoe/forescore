@@ -37,7 +37,7 @@ h1 {
 }
 
 .validation-error {
-    display: none;
+    visibility: hidden;
     color: red;
     padding: 10px 0;
 }
@@ -125,6 +125,9 @@ select:after {
 .check_box_container.borderless {
     border: 0px;
     padding-left: 0px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .borderless .check_box {
@@ -232,6 +235,10 @@ select:after {
     border-style: solid;
     border-width: 2px;
     border-color: grey;
+}
+
+.value_bar.checked {
+    background-color: #959595;
 }
 
 .value_bar_container {
