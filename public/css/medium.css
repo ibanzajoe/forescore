@@ -3,13 +3,13 @@
         font-size: 16px;
     }
     h1 {
-        font-size: 56px;
-    }
-    h2 {
         font-size: 48px;
     }
-    h3 {
+    h2 {
         font-size: 36px;
+    }
+    h3 {
+        font-size: 28px;
     }
     p  {
         font-size: 16px;
@@ -28,11 +28,11 @@
     }
 
     .slide1 {
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
-    .slide1 p {
-        font-size: 18px;
+    .slide1 h1 {
+        font-size: 44px;
     }
 
     .social {
