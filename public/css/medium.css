@@ -1,15 +1,15 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 992px) {
     body {
         font-size: 16px;
     }
     h1 {
-        font-size: 56px;
-    }
-    h2 {
         font-size: 48px;
     }
-    h3 {
+    h2 {
         font-size: 36px;
+    }
+    h3 {
+        font-size: 28px;
     }
     p  {
         font-size: 16px;
@@ -24,15 +24,15 @@
     }
 
     .slide {
-        padding-top: 110px
+        padding-top: 40px
     }
 
     .slide1 {
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
-    .slide1 p {
-        font-size: 18px;
+    .slide1 h1 {
+        font-size: 44px;
     }
 
     .social {
@@ -46,12 +46,12 @@
     }
 
     .slides {
-        padding: 113px 0 87px;
+        padding: 113px 0 67px;
     }
 
     .footer {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         height: auto;
     }
     .footer p{
@@ -59,7 +59,7 @@
     }
     /* content */
     .triggered-info {
-        min-height: 100px;
+        min-height: 50px;
         font-size: 30px;
         color: #024C64;
     }
