@@ -98,27 +98,56 @@
         font-size: 16px;
     }
 
-    .progress_bar p{
-        min-width: 20px;
-        min-height: 20px;
-        max-height: 60px;
-        max-width: 58px;
+    .progress_bar {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .progress_bar table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .progress_bar td {
+        max-width: 50px;
+        text-align: center;
+    }
+
+    .make_circle {
+        margin: 0 auto;
+        font-size: 9px;
+        width: 17px;
+        height: 17px;
         border-style: solid;
         border-width: 1px;
+        border-radius: 50%;
         border-color: #959595;
+        background-color: #999999;
+        color: #999999;
+    }
+
+    .progress_bar td p {
+        font-size: 10px;
+    }
+
+    .make_circle.marker{
+        margin: 0 auto;
         background-color: #ffffff;
-        padding-left: 22px;
-        padding-top: 18px;
-        padding-bottom: 18px;
+        width: 35px;
+        height: 35px;
     }
 
-    .progress_bar.checked p{
-        background-color: #959595;
+    .make_circle.marker p{
+        font-size: 18px;
+        margin-top: 4px;
     }
 
-    .progress_bar_container p {
-        color: black;
-        font-size: 16px;
+    .circle_width {
+        width: 50px;
     }
 
+    .slack {
+        width: 10px;
+    }
 }

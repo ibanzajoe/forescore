@@ -305,6 +305,10 @@ select:after {
     margin-top: 2px;
 }
 
+.circle_width {
+    width: 35px;
+}
+
 .slack {
     width: 10px;
 }
