@@ -37,6 +37,11 @@
 
     .social {
         top: 0;
+        background-color: white;
+    }
+
+    .social p {
+        font-weight: 700;
     }
 
     .logo {
