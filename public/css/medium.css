@@ -24,7 +24,7 @@
     }
 
     .slide {
-        padding-top: 40px
+        padding-top: 20px
     }
 
     .slide1 {
@@ -59,12 +59,15 @@
     }
     /* content */
     .triggered-info {
-        min-height: 50px;
-        font-size: 30px;
+        min-height: 40px;
+        font-size: 22px;
         color: #024C64;
     }
+
+    .
+
     .value-trigger {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     select {
@@ -99,8 +102,7 @@
     }
 
     .progress_bar {
-        margin-top: 25px;
-        margin-bottom: 30px;
+        margin-top: 0;
     }
 
     .progress_bar table{
