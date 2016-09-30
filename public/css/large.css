@@ -1,5 +1,13 @@
 @media screen and (min-width: 1200px) {
     .slide {
-        padding-top: 80px
+        padding-top: 40px
+    }
+
+    .progress_bar {
+        margin-top: 20px;
+    }
+
+    .value-trigger {
+        margin-top: 30px;
     }
 }

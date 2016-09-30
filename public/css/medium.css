@@ -24,7 +24,7 @@
     }
 
     .slide {
-        padding-top: 40px
+        padding-top: 20px
     }
 
     .slide1 {
@@ -37,6 +37,11 @@
 
     .social {
         top: 0;
+        background-color: white;
+    }
+
+    .social p {
+        font-weight: 700;
     }
 
     .logo {
@@ -46,7 +51,11 @@
     }
 
     .slides {
+<<<<<<< HEAD
         padding: 113px 0 60px;
+=======
+        padding: 56px 0 67px;
+>>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
     }
 
     .footer {
@@ -59,12 +68,20 @@
     }
     /* content */
     .triggered-info {
+<<<<<<< HEAD
         min-height: 50px;
         font-size: 18px;
+=======
+        min-height: 40px;
+        font-size: 22px;
+>>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
         color: #024C64;
     }
+
+    .
+
     .value-trigger {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     select {
@@ -99,8 +116,7 @@
     }
 
     .progress_bar {
-        margin-top: 25px;
-        margin-bottom: 30px;
+        margin-top: 0;
     }
 
     .progress_bar table{

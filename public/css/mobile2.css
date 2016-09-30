@@ -225,6 +225,7 @@ select:after {
     font-size: 18px;
     color: #024C64;
 }
+
 .triggered-info .option {
     display: none;
 }
@@ -330,6 +331,8 @@ select:after {
 
 /* social media css */
 .social {
+    margin:0;
+    padding: 0;
     z-index: 999;
     position: fixed;
     width: 100%;
@@ -341,7 +344,7 @@ select:after {
 }
 
 .social p{
-    margin-top: 17px;
+    margin-top: 23px;
     margin-bottom: 14px;
 }
 
