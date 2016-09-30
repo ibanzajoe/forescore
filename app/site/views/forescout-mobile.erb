@@ -8,7 +8,9 @@
   <link href="/css/slides.css" rel="stylesheet">
   <link href="/css/medium.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
   <!--<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 </head>
 <body>
 <div class="container logo visible-xs visible-sm">
@@ -2212,17 +2214,12 @@
         <div class="row" style="margin-top: 20px;">
           <div class="col-xs-12">
             <span class="reg-font" style="font-size: 16px;"><strong>DOWNLOADS </strong></span>
-<<<<<<< HEAD
             <span class="thin-font" style="font-size: 16px; color: #024c64;"> (As many as you'd like)</span>
-=======
-            <span style="font-size: 16px; color: #024c64;"> (As many as you'd like)</span>
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12">
             <div class="check_box_container borderless">
-<<<<<<< HEAD
               <div class="check_box" data-key="END_download_device" data-value="true"><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
               <p >For your Device Visibility Snapshot</p>
             </div>
@@ -2232,17 +2229,6 @@
             </div>
             <div class="check_box_container borderless">
               <div class="check_box" data-key="END_download_report" data-value="true"><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-=======
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-              <p >For your Device Visibility Snapshot</p>
-            </div>
-            <div class="check_box_container borderless">
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-              <p >IoT Security Survey Results</p>
-            </div>
-            <div class="check_box_container borderless">
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
               <p >Continuous Monitoring and Threat Mitigation Report</p>
             </div>
           </div>
@@ -2255,11 +2241,7 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="check_box_container borderless">
-<<<<<<< HEAD
               <div class="check_box" data-key="END_demo" data-value="true" data-single="false"><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-=======
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
               <p>See how ForeScout is transforming security through visibility.  Experience a FREE ForeScout CounterAct Demo</p>
             </div>
           </div>
@@ -2273,11 +2255,7 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="check_box_container borderless">
-<<<<<<< HEAD
               <div class="check_box" data-key="END_conversation" data-value="true" data-single="false"><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-=======
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
               <p>Set up a face to face conversation with one of our sales enginners or channel partners</p>
             </div>
           </div>
@@ -2291,19 +2269,11 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="check_box_container borderless">
-<<<<<<< HEAD
               <div class="check_box" data-key="END_convincing_customer" data-value="true" data-single="false"><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
               <p >See what our customers are saying</p>
             </div>
             <div class="check_box_container borderless">
               <div class="check_box" data-key="END_convincing_industry" data-value="true" data-single="false"><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-=======
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
-              <p >See what our customers are saying</p>
-            </div>
-            <div class="check_box_container borderless">
-              <div class="check_box" ><img class="check_mark" src="/work/forescout_checkmark.png" alt="box"></div>
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
               <p >See what industry analysts are saying</p>
             </div>
           </div>
@@ -2386,7 +2356,7 @@
         <div class="row">
           <div class="col-md-offset-10 col-md-2">
             <div class="text-align" style="margin-top: 40px; margin-bottom: 40px;">
-              <btn class="btn btn-success btn-lg forescout-btn">FINISH</btn>
+              <btn id="finish" class="btn btn-success btn-lg forescout-btn">FINISH</btn>
             </div>
           </div>
         </div>
@@ -2433,6 +2403,7 @@
 
 <script>
   var index = 0;
+  var api_url = 'http://someurl_with_cors.com/cors';
   var user_data = {"02_exec_strategic_it": false, "02_func_comp_lead": false, "02_plz_spec": false, "03_num_employ": false, "04_industry": false,
     "nist_05_know_num_device": false, "nist_06_how_confident": false, "nist_07_01-10": false, "nist_08_%": false, "nist_09_compliance": false, "nist_10_approach": false,
     "nist_11_ID_control": false, "nist_12_appropriate": false, "nist_12_budget": false, "nist_12_IT_OT": false, "nist_12_lack_personnel": false, "nist_12_other": false,
@@ -2441,6 +2412,8 @@
     "sans_10_challenges_other": false, "END_download_device": false, "END_download_survey": false, "END_download_report": false, "END_demo": false,
     "END_conversation": false, "END_convincing_customer": false, "END_convincing_industry": false, "END_framework": false, "END_first_name": false, "END_last_name": false,
    "END_email": false};
+
+
   $(document).ready(function() {
     var $checkmark = "<img src='/work/forescout_checkbox'/>";
     $('.check_box, .value_bar').on('click', function(e){
@@ -2529,7 +2502,13 @@
     }
   })
 
+  $('#finish').click( function(e){
+    $.post(api_url, user_data, function(){
 
+    })
+
+    swal('Submitted', "Form has been submitted", "success")
+  })
 
 
 

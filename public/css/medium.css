@@ -51,11 +51,8 @@
     }
 
     .slides {
-<<<<<<< HEAD
-        padding: 113px 0 60px;
-=======
-        padding: 56px 0 67px;
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
+
+        padding: 56px 0 60px;
     }
 
     .footer {
@@ -68,13 +65,10 @@
     }
     /* content */
     .triggered-info {
-<<<<<<< HEAD
+
         min-height: 50px;
         font-size: 18px;
-=======
-        min-height: 40px;
-        font-size: 22px;
->>>>>>> 772035f92d63f8150d57f132408f854fddd0faa7
+
         color: #024C64;
     }
 
